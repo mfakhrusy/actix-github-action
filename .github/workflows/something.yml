@@ -6,7 +6,7 @@ on:
 name: Build and Deploy
 
 jobs:
-  build_and_test:
+  build_and_deploy:
     name: actix-github-action
     runs-on: ubuntu-latest
     environment: production
